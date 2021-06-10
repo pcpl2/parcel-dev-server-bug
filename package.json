@@ -2,7 +2,7 @@
     "name": "parcel-test",
     "version": "1.0.0",
     "scripts": {
-        "start": "parcel watch public/index.html --log-level verbose"
+        "start": "parcel public/index.html --log-level verbose"
     },
     "validators": {
         "*.js": [
