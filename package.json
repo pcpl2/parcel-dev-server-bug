@@ -1,0 +1,21 @@
+{
+    "name": "parcel-test",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "parcel watch public/index.html --log-level verbose"
+    },
+    "validators": {
+        "*.js": [
+            "@parcel/validator-eslint"
+        ]
+    },
+    "dependencies": {
+        "cirrus-ui": "^0.6.2"
+    },
+    "devDependencies": {
+        "@parcel/reporter-bundle-analyzer": "2.0.0-nightly.2250",
+        "eslint": "~7.22.0",
+        "parcel": "2.0.0-beta.3.1",
+        "sass": "~1.32.4"
+    }
+}

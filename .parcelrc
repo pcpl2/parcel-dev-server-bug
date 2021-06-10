@@ -1,0 +1,7 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.{jpg,png,svg}": ["@parcel/transformer-raw"]
+  },
+  "reporters": ["@parcel/reporter-bundle-analyzer"]
+}
